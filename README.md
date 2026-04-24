@@ -19,20 +19,6 @@ Müşteri kaybını tahmin etmek, şirketlerin müşteri elde tutma stratejileri
 3. **Makine Öğrenmesi Modellemesi:** Farklı sınıflandırma algoritmaları kullanarak churn tahmini yapan en iyi modellerin geliştirilmesi.
 4. **Model Değerlendirme:** Karmaşıklık matrisi (Confusion Matrix), Doğruluk (Accuracy), Kesinlik (Precision), Duyarlılık (Recall) ve F1-Skoru gibi metriklerle modellerin başarılarını kıyaslama ve hiperparametre optimizasyonu.
 
-## 📁 Proje Yapısı
-
-\`\`\`text
-├── churn.ipynb               # Güncel, derlenmiş ana analiz ve modelleme çalışması
-├── Old Models/               # Projenin geliştirilme sürecindeki geçmiş denemeler (Draft'lar)
-│   ├── churn_analyze_1st.ipynb 
-│   ├── P2P_Proje_Analizi.ipynb
-│   ├── telco_customers_churn2.ipynb
-│   ├── telco_customers_churn3.ipynb
-│   └── Telco_customers_churn4.ipynb
-├── churn_env/                # Projenin çalıştırılması için bağımlılıkları barındıran sanal ortam
-└── README.md                 # Bu dosya
-\`\`\`
-
 ## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
 - **Programlama Dili:** Python 3.x
 - **Veri Manipülasyonu:** Pandas, NumPy
