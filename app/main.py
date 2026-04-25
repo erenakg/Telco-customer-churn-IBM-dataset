@@ -12,8 +12,8 @@ app = FastAPI(
 )
 
 # Model dosyalarını yüklüyoruz
-model = joblib.load('churn_model.pkl')
-with open('model_columns.pkl', 'rb') as f:
+model = joblib.load('models/churn_model.pkl')
+with open('models/model_columns.pkl', 'rb') as f:
     model_columns = pickle.load(f)
 
 class MüşteriVerisi(BaseModel):
