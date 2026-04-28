@@ -39,5 +39,14 @@ Projeyi kendi bilgisayarınızda (lokalinizde) çalıştırmak için aşağıdak
    \`\`\`
 4. Başlatılan arayüzde **`churn.ipynb`** dosyasını açarak analizleri ve makine öğrenmesi adımlarını çalıştırıp inceleyebilirsiniz.
 
+## 🌐 API ve Canlı Servis Entegrasyonu
+Projemiz sadece yerel bir analizden ibaret değildir; geliştirilen model **FastAPI** ve **Render** kullanılarak herkesin erişebileceği canlı bir web servisine (API) dönüştürülmüştür. 
+
+Modelimizi anında test etmek ve veri setindeki özelliklere (tenure, aylık ücret vb.) göre anlık "Churn" (ayrılma) tahmini almak için aşağıdaki bağlantıyı kullanabilirsiniz:
+
+👉 **[Canlı API Test Ekranı (Swagger UI) İçin Tıklayın](https://telco-customer-churn-penc.onrender.com/docs)**
+
+*(Not: Proje ücretsiz Render sunucularında barındırıldığı için, siteye bir süre giriş yapılmadığında sunucu uyku moduna geçer. Linke tıkladığınızda sayfanın açılması ilk seferde 50-60 saniye sürebilir, yüklendikten sonra normal hızında çalışacaktır.)*
+
 ## 📌 Sonuçlar ve Değerlendirme
 *(Not: Bu bölüm modelleme bittiğinde ve nihai analiz elde edildiğinde elde edilen başarı oranına, en belirleyici değişkenlere (Feature Importance) ve iş çözümlerine göre güncellenebilir.)*
